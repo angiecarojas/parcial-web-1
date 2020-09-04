@@ -1,0 +1,200 @@
+:root{
+    --naranjaParra: #E89241;
+    --naranjaMenu: #E68930;
+    --naranjaBtn: #E48220;
+    --blanco: #FFFFFF ;
+    --naranjaBoton: #DE7D2C;
+  
+}
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'glacial_indifferenceitalic';
+    src: url('glacialindifference-italic-webfont.woff2') format('woff2'),
+         url('glacialindifference-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('glacialindifference-bold-webfont.woff2') format('woff2'),
+         url('glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background: #E48123;
+}
+
+#container{
+    width: 802px;
+    margin: 0 auto;
+    background: #FFFFFF;  
+    position: relative;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/backg.png');
+    
+}
+
+#container .wrapper{
+    padding: 14px 17px 11px 17px;
+}
+
+#Div0{
+    width: 802px;
+    margin: 0 auto;
+    position: absolute;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/Hojas-fru.png');
+    background-repeat: no-repeat;
+}
+.cuadrado {
+    widows: 800px;
+    max-width:853px;
+    height:25vh;
+    max-height:100px;
+    position: relative ;
+    background:white;
+  }
+
+.titulo{
+    color: var(--blanco);
+    font-size:66pt;
+}
+/*.subtitulo{
+    color: var(--verdeClaro);
+    font-size: 16pt;
+}*/
+
+.parrafo{
+    color: var(--naranjaParra);
+    font-size: 14pt;
+}
+.btn-principal{
+    color: #fff;
+    font-size: 12.44pt;
+    background: var(--naranjaBtn) ;
+    width: 119,04pt; /*ancho*/
+    height: 5px 10px 5px 10px;
+    padding: 3px;
+    border-radius: 10%;
+    border: none;
+}
+
+/*deja que se ubique la lista hacia el ladito*/
+#menu ul li{
+    display: inline;
+    font-size: 14pt;
+    color: var(--naranjaMenu);
+    text-decoration: none;
+}
+
+#menu ul li a{
+    font-size: 14pt;
+    color: var(--naranjaMenu);
+    text-decoration: none;
+}
+
+#menu .call-getstared {
+    font-size: 15pt;
+    background: var(--naranjaMenu);
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10%;
+    color: #fff;
+}
+
+.Div0{
+  position: relative;
+  width: 1310px;
+  height: 900px;
+  margin: auto;
+  background-image: url("../img/backg.png");  
+  background-repeat: no-repeat;
+}
+
+/*
+.principal-information{
+    width: 380px;
+    float: center;
+    position: relative;
+    background: url('../img/juguito-img.png');
+    
+    display: inline-block;
+    
+}*/
+
+.principal-images{
+    width: 600px;
+    float: right;
+    position: relative;
+    display: inline-flexbox;
+}
+
+/*body{
+    margin: 0;
+    padding: 0%;
+    background: url(Background.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+   }*/
+
+
+  /*----ABOUT-----*/
+  #Div1{
+    width: 678px;
+    margin: 0 auto;
+    position: absolute;
+    width: 678px;
+    height: 340px;
+    margin: auto;
+    align-content: center;
+    background: url('../img/juguito-about.png');
+    background-repeat: no-repeat;
+    
+}
+
+#Div11{
+    width: 802px;
+    margin: 0 auto;
+    position: absolute;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/Hojas-fru-About.png');
+    background-repeat: no-repeat;
+}
+.titulo-ab{
+    color: var(--blanco);
+    font-size:44pt;
+    text-align: center;
+}
+.parrafo-ab{
+    color: var(--naranjaParra);
+    font-size: 14pt;
+    text-align: center;
+}
+.btn-shop{
+    color: #fff;
+    font-size: 10pt;
+    background: var(--naranjaBoton) ;
+    width: 119,04pt; /*ancho*/
+    height: 26px 20px 25px 20px;
+    padding: 3px;
+    border-radius: 40%;
+    border: none;
+}
